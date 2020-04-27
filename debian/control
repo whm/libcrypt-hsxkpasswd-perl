@@ -33,10 +33,14 @@ Depends: ${misc:Depends}, ${perl:Depends},
  libtext-unidecode-perl,
  libtype-tiny-perl,
  perl (>= 5.16.0)
-Description: secure memorable password generator inspired by Steve Gibson's Passord Haystacks (https://www.grc.com/haystack.htm), and the famous XKCD password cartoon (https://xkcd.com/936/).
- A secure memorable password generator inspired by the wonderful XKCD webcomic
- at http://www.xkcd.com/ and Steve Gibson's Password Haystacks page at
+Description: secure memorable password generator
+ This method inspired by Steve Gibson's Passord Haystacks
+ (https://www.grc.com/haystack.htm), and the famous XKCD password
+ cartoon (https://xkcd.com/936/).  A secure memorable password
+ generator inspired by the wonderful XKCD webcomic at
+ http://www.xkcd.com/ and Steve Gibson's Password Haystacks page at
  https://www.grc.com/haystack.htm. This is the Perl module that powers
  https://www.xkpasswd.net.
  .
- This description was automagically extracted from the module by dh-make-perl.
+ This description was automagically extracted from the module
+ by dh-make-perl.
