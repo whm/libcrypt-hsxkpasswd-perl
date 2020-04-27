@@ -1,0 +1,5 @@
+libcrypt-hsxkpasswd-perl (3.6-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Bill MacAllister <whm@dropbox.com>  Mon, 27 Apr 2020 22:16:06 +0000

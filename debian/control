@@ -1,0 +1,42 @@
+Source: libcrypt-hsxkpasswd-perl
+Section: perl
+Priority: optional
+Maintainer: Bill MacAllister <whm@dropbox.com>
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: libclone-perl,
+ libdatetime-perl,
+ libfile-homedir-perl,
+ libfile-share-perl,
+ libfile-sharedir-perl (>= 1.00),
+ libjson-perl,
+ liblist-moreutils-perl,
+ libmath-round-perl,
+ libmodule-build-perl,
+ libreadonly-perl,
+ libtext-unidecode-perl,
+ libtype-tiny-perl,
+ perl (>= 5.16.0)
+Standards-Version: 4.1.3
+Homepage: https://metacpan.org/release/Crypt-HSXKPasswd
+
+Package: libcrypt-hsxkpasswd-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libclone-perl,
+ libdatetime-perl,
+ libfile-homedir-perl,
+ libfile-sharedir-perl (>= 1.00),
+ libjson-perl,
+ liblist-moreutils-perl,
+ libmath-round-perl,
+ libreadonly-perl,
+ libtext-unidecode-perl,
+ libtype-tiny-perl,
+ perl (>= 5.16.0)
+Description: secure memorable password generator inspired by Steve Gibson's Passord Haystacks (https://www.grc.com/haystack.htm), and the famous XKCD password cartoon (https://xkcd.com/936/).
+ A secure memorable password generator inspired by the wonderful XKCD webcomic
+ at http://www.xkcd.com/ and Steve Gibson's Password Haystacks page at
+ https://www.grc.com/haystack.htm. This is the Perl module that powers
+ https://www.xkpasswd.net.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
